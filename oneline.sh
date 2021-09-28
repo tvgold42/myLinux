@@ -1,4 +1,4 @@
-if [ ! -d ~/.themes]; then
+if [ ! -d ~/.themes ]; then
   mkdir -p ~/.themes;
 fi
 sudo pacman -Syuu git wget tar gnome-tweaks cmake jq --noconfirm;
