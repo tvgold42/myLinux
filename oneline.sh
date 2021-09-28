@@ -7,7 +7,6 @@ wget -O ~/.themes/purple.tar.xz https://dl1.pling.com/api/files/download/j/eyJ0e
 tar -xf ~/.themes/purple.tar.xz;
 rm -f ~/.themes/purple.tar.xz;
 git clone https://aur.archlinux.org/chrome-gnome-shell-git.git /tmp/chrome-gnome-shell;
-cd /tmp/chrome-gnome-shell && makepkg -si;
+cd /tmp/chrome-gnome-shell && makepkg -si --noconfirm;
 rm -fdr /tmp/chrome-gnome-shell;
-gnome-extensions enable 'user-there@gnome-shell-extensions.gcampx.github.com';
-cd /tmp/chrome-gnome-shell && makepkg -si;
+gnome-extensions enable 'user-theme@gnome-shell-extensions.gcampx.github.com';
