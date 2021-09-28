@@ -12,4 +12,4 @@ rm -f ~/.themes/candy_icons.tar.xz
 git clone https://aur.archlinux.org/chrome-gnome-shell-git.git /tmp/chrome-gnome-shell;
 cd /tmp/chrome-gnome-shell && makepkg -si --noconfirm;
 rm -fdr /tmp/chrome-gnome-shell;
-gnome-extensions enable "user-theme@gnome-shell-extensions.gcampx.github.com";
+gnome-extensions enable "user-theme@gnome-shell-extensions.gcampax.github.com";
